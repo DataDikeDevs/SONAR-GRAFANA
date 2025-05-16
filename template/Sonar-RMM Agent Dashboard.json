@@ -160,7 +160,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -272,7 +272,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -363,7 +363,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -489,7 +489,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "time_series",
           "group": [],
@@ -612,7 +612,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "time_series",
           "group": [],
@@ -741,7 +741,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "time_series",
           "group": [],
@@ -838,7 +838,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -926,7 +926,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -1029,7 +1029,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -1131,7 +1131,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -1216,7 +1216,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -1303,7 +1303,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -1394,7 +1394,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -1494,7 +1494,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -1585,7 +1585,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -1676,7 +1676,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -1766,7 +1766,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -1871,7 +1871,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -1973,7 +1973,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -2088,7 +2088,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -2202,7 +2202,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -2449,7 +2449,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -2605,7 +2605,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "${DS_SONARRMM}"
+            "uid": "${Sonar}"
           },
           "format": "table",
           "group": [],
@@ -2667,7 +2667,7 @@
         "current": {},
         "datasource": {
           "type": "grafana-postgresql-datasource",
-          "uid": "${DS_SONARRMM}"
+          "uid": "${Sonar}"
         },
         "definition": "SELECT\n    clients_site.name\nFROM\n    clients_site\n    INNER JOIN clients_client ON clients_site.client_id = clients_client.id\nWHERE\n    clients_client.name IN ($Client)",
         "includeAll": true,
